@@ -1,0 +1,60 @@
+body{
+    background-image: url('roll.jpg');
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    text-align: center;
+
+
+}
+.caption h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+
+}
+.caption p {
+    font-size: 1.55rem;
+    text-transform: capitalize;
+    
+}
+.caption a {
+    text-decoration: none;
+    color:white;
+    border-radius: 0;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 5px 20px;
+
+}
+  .btn-2:hover {
+    color: green;
+    background: yellow;
+}
+.btn-1:hover{
+    color: black;
+    
+}
+.btn-3:hover{
+    color: greenyellow;
+    background: black
+}
+@media (max-width:576px){
+    .caption h1{
+        font-size: 2rem;
+
+    }
+    .caption p{
+        font-size: 1rem;
+        
+    }
+    .caption a{
+        font-size: 1rem;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        
+    }
+}
